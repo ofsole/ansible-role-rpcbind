@@ -1,0 +1,6 @@
+---
+
+package_name: rpcbind
+service_name: "{{ 'portmap' if ansible_distribution_version == '12.04' else 'rpcbind' }}"
+
+

@@ -1,0 +1,3 @@
+---
+package_name: 'rpcbind'
+service_name: 'rpcbind'

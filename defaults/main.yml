@@ -1,0 +1,7 @@
+---
+# defaults file for ansible-role-rpcbind
+
+package_state: 'present'
+service_state: 'started'
+service_enabled: 'yes'
+
